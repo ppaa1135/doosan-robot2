@@ -86,7 +86,7 @@ class DR_Error(Exception):
         err_msg = "[ERROR] <DSR_ROBOT.py> " + "func_name = "+str(self.funcname) +", "+ "line_no = "+str(self.lineno)
         print(err_msg)
         #rospy.signal_shutdown(err_msg)
-        rclpy.shutdown()
+        # rclpy.shutdown()
 
         # ....
         '''
